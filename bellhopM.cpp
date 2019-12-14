@@ -5,11 +5,11 @@
 int HV;
 int NFirstAcoustic;
 int NLastAcoustic;
-int alphaR;
-int betaR;
-int rhoR;
-int alphaI;
-int betaI;
+double alphaR;
+double betaR;
+double rhoR;
+double alphaI;
+double betaI;
 
 S_Bdry Bdry;
 

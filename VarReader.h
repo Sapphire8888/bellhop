@@ -13,7 +13,8 @@ public:
 	bool readbty();
 	bool readrc();
 	bool readpat();
-	ifstream readEnvCore(string filename, string& TitleEnv, double& freq, int& SSP, S_Bdry& Bdry);
+	ifstream readEnvCore(string filename, string& TitleEnv, double& freq, S_SSP& SSP, S_Bdry& Bdry);
+	void topbot(ifstream&);
 
 private:
 	string m_Filename;
